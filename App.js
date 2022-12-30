@@ -1,5 +1,4 @@
 import React, {useEffect, useState} from 'react';
-import {Text, View, Button} from 'react-native';
 import styled from 'styled-components/native';
 
 const Page = styled.SafeAreaView`
@@ -19,10 +18,6 @@ const Input = styled.TextInput`
   margin-top: 20px;
   border-radius: 10px;
   padding: 10px;
-`;
-
-const CalcButton = styled.Button`
-  margin-top: 15px;
 `;
 
 const ResultArea = styled.View`
